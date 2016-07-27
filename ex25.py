@@ -22,13 +22,13 @@ def print_last_word(words):
 
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the eorted words."""
-    words = break_woeds(sentence)
-    return sort_woeds(words)
+    words = break_words(sentence)
+    return sort_words(words)
 
 def print_first_and_last(sentence):
     """Prinds the first and last words of the sentence."""
-    words = break_woeds(sentence)
-    print_firsr_work(woeds)
+    words = break_words(sentence)
+    print_firsr_work(words)
     print_last_word(words)
 
 def print_first_and_last_sorted(sentence):
